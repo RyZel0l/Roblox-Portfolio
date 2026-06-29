@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Cashs Portfolio</title>
+</head>
+<body>
+    <div class="tab-container">
+        <div class="tabs">
+            <button class="tab active" data-tab="home">Home</button>
+            <button class="tab" data-tab="about">About</button>
+            <button class="tab" data-tab="contact">Contact</button>
+        </div>
+
+        <button id="darkmode" class="darkmode">Dark</button>
+        <button id="Light" class="Light">Light</button>
+
+        <div class="tab-content active" id="home"> <!-- Top Of Page -->
+            <h2>Home Tab</h2>
+            <p>Roblox Scripter & System Developer</p>
+            <p>Scroll Down To See More Of My Work!</p>
+
+            <hr>
+
+            <h1>
+                IF YOU DON'T SEE ANYTHING, REFRESH!
+            </h1>
+            
+            <hr>
+        </div>
+
+        <!-- Examples(Photos/Videos) -->
+        
+        <div class="tab-content active" id="home">
+            <video src="videos/MS.mp4" class="VS-container" autoplay loop muted>
+                Your browser does not support the video tag :c
+            </video>
+
+            <hr>
+
+            <h3 id="home">
+                Note: In this clip, the fly + speed hack was in one thing.. So yeah. ALSO DON'T CHEAT!! I DO NOT USE THIS EXECUTOR FOR ANYTHING BUT ANTI-CHEAT TESTING!
+            </h3>
+
+            <video src="videos/AntiCheat.mp4" class="VS-container" autoplay loop muted>
+                Your browser does not support the video tag :c
+            </video>
+
+            <hr>
+
+            <video src="videos/inv.mp4" class="VS-container" autoplay loop muted>
+                Your browser does not support the video tag :c
+            </video>
+
+            <hr>
+
+            <h1>
+                SORRY! THAT'S ALL FOR NOW!! BUT I HAVE LIKE 10 THINGS I COULD SHOW, UPDATES SOON...
+            </h1>
+        </div>
+        
+
+        <div class="tab-content" id="about">
+            <h2>About Tab</h2>
+            <p>
+                <img src="images/wave.png" class="VS-container"></img>
+                <h1>
+                    Hi! I'm Cash -- Or known as AimNat10n. Scroll down for my about me!
+                </h1>
+
+                <div class="aboutTXT">
+                    Hi, I'm Cash — a Roblox scripter with 2+ years of experience building systems and gameplay features in Roblox Studio. I started scripting in March 2024 and have been consistently improving ever since through personal projects and experimental systems.
+                    I've worked on a wide range of mechanics including anti-cheat systems, movement systems, UI/GUI systems, interaction systems, and gameplay scripting for various game concepts. Most of my work has been in private projects, which is why I’m now focusing on building a public portfolio to showcase what I can do.
+                    I focus on writing clean, functional, and scalable code, with an emphasis on systems that are practical in real games rather than just prototypes. I enjoy solving problems, optimizing mechanics, and bringing game ideas to life through scripting.
+                </div>
+
+                <hr>
+
+                <h2>
+                    Things I worked on:
+                </h2>
+
+                <h3>
+                    <div class="worked">
+                        <ul>
+                            <li>Anti-Cheat</li>
+                            <li>Obby Systems</li>
+                            <li>Horror Mechanics</li>
+                            <li>Interaction Systems</li>
+                            <li>GUI Animation</li>
+                            <li>Custom Movement</li>
+                            <li>Data Saving (DataStore)</li>
+                            <li>UI / HUD Development</li>
+                            <li>Bug Fixing & Optimization</li>
+                            <li>Client–Server Networking</li>
+                            <li>Shop / Gamepass Systems</li>
+                            <li>Round Systems</li>
+                        </ul>
+                    </div>
+                </h3>
+            </p>
+        </div>
+        <div class="tab-content" id="contact">
+            <h2>Contact Tab</h2>
+                <a href="https://x.com/FalseRyze">
+                    <img src="images/twitter.png" class="contacts" >
+                </a>
+
+                    <a href="https://discord.com/users/1019749342208331839">
+                    <img src="images/discordLogo.webp" class="contacts" >
+                </a>
+        </div>
+    </div>
+</body>
+</html>
